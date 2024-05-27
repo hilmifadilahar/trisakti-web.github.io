@@ -1,0 +1,137 @@
+* {box-sizing: border-box;}
+
+body {
+    padding: 10px;
+    margin: 0;
+    background-color: #E8DFCA;
+    font-family: 'Quicksand' , sans-serif;
+}
+nav  {
+    background-color: #4F6F52;
+    padding: 5px;
+    text-decoration: none;
+    position: sticky;
+    top: 0%;
+
+}
+
+nav ul {
+   padding-inline: 4rem;
+   display: flex;
+   gap: 2rem;
+
+}
+nav li {
+ list-style-type: none;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400 ;
+    text-decoration: none;
+    color: #F5EFE6 ;
+}
+nav a:hover {
+    font-weight: bold  ;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+#content {
+    flex: 5 ;
+
+}
+footer{
+    padding: 20px;
+    color: #F5EFE6;
+    background-color: #4F6F52;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside {
+    float: right;
+    margin: 10px;
+    width: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+aside h3 {
+    text-align: center;
+    color: #E8DFCA;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+main aside {
+    align-items: center;
+    max-width: 2100px ;
+}
+.img {
+    width: 100%;
+}
+.imgo{ 
+    width: 100px;
+    text-align: justify;
+
+}
+
+.b1 {
+    box-shadow: 0 4px 8px 0 #4F6F52 ;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify;
+}
+.title {
+    box-shadow: 0 4px 8px 0 #4F6F52 ;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+img { 
+    display: flexbox ;
+    width: 20%;
+    margin-left: 40%;
+}
+.b2 {
+    box-shadow: 0 4px 8px 0 #4F6F52 ;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify;
+    gap: 1rem 10rem ;
+    }
+
+.box {
+    background-color: #4F6F52;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: justify;
+}
+table {
+    width:100%;
+    margin-left: 10px;
+    margin: 30px 0px;
+}
+table, th, td {
+
+    border-collapse: collapse;
+    text-align: center; }
+
+.satu {
+    flex-grow: 1 ;
+}
+.dua {
+    flex-grow: 1;
+}
+aside table {
+    text-align: justify;
+}
